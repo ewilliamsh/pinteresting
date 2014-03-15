@@ -1,5 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext);
 
-$body-bg:	#2ecc71;
-$navbar-inverse-bg: #16a085;
-$navbar-inverse-link-color: #ecf0f1; 
+$body-bg:							#ecf0f1;
+$navbar-default-bg: 				white;
+$navbar-inverse-link-color: 		#ecf0f1; 
+$navbar-default-brand-color:		#e74c3c;  /* Color del titulo/marca InstaPics */
+$jumbotron-bg:						white;
+
+
+
+
+
 @import 'bootstrap';
+
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
